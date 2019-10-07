@@ -8,8 +8,26 @@ table,
 th,
 td {
 	border: 1px solid black;
-	padding: 20px;
-	background-color: #FF9984;
+	padding: 10px;
+	background-color: #17593E;
 	border-collapse: collapse;
+	
+
+}
+
+
+table {
+
+
+}
+th{	font-family:'Mansalva', cursive;
+
+	font-size: 24px;
+	color: #FF0792;
+
+}
+body {
+	
+	background-color:; -//// -- mettre un code couleurs
 }
 

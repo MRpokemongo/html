@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style  type="text/css">
+	.signin {
+		background:#00FF64;
+		line-height:25px;
+		font-family:Helvetica ,sans-serif;
+		font-size:x-small;
+		font-weight:bold;
+	}
+	
+	.name {
+		color:#FF0000;
+	 }
+</style>
+		
+
+
+
+
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title> les principales balises de tableau </title>
 	<link rel="stylesheet" type="text/css" href="tableau.css">
+	<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
 
 
 
@@ -31,34 +50,34 @@
 
 
 	<hr/> 
-	<h2> 2) deux exemples  de lattribut "rowspan" 
+	<h2> 2) deux exemples  de lattribut "colspan" 
 	<p>LA HAUTEUR D'une cellule est exprimé en nombre de ligne
 
 	<h3>2.1) premier exemple</h3>
 	<table>
 		<tr>
 			<td>item 1 </td>
-			<td rowspan="2">
-			</td>
-			<td>item 3</td>	
+			<td colspan="2">item 3 et item 666</td>
+			
 			
 		</tr>
 		<tr>
 			<td>item 4</td>
 			<td>item 5</td>
+			<td>item 6</td>
 
 		</tr>
 	</table>
 
 
 
-	<h3>2.1) deuxieme exemple</h3>
+	<h3>2.1) deuxieme exemple avec du rowspan</h3>
 	<table>
 		<tr>
 			<td rowspan="2"> item 1 </td>   <!-- rowspan="?" le point ? fusionne les colonne-->
-			<td>item 2</td>	
-			<td>item 3</td>	
-			<td>item 4</td>	
+			<td >item 2</td>	
+			<td >item 3</td>	
+			<td >item 4</td>	
 			
 		</tr>
 		<tr>
@@ -68,6 +87,71 @@
 
 		</tr>
 	</table>
+
+
+
+	<h2> 3)  exemples  de lattribut de la balise 1 titre 
+		<table>
+		<tr>
+			<th img class="name">titre 1 </th>   
+			<th imag class="name">titre 2 </th>	
+			<th imag class="name">titre 3 </th>	
+				
+			
+		</tr>
+		<tr>
+			<td> a</td>
+			<td> b</td>
+			<td> c </td>	
+
+		</tr>
+
+		<tr>
+			<td> d</td>
+			<td> e</td>
+			<td> f </td>	
+
+		</tr>
+	</table>
+
+
+
+	<h2> 4) combinaison entre  colspan et th 
+		<table>
+		<tr>
+			<th colspan="2">titre 1 </th>   
+			<th colspan="2">titre 2 </th>	
+			
+				
+			
+		</tr>
+		<tr>
+			<th >titre 3 </th>
+			<th >titre 4 </th>
+			<th >titre 5 </th>
+			<th >titre 6 </th>
+			
+		</tr>
+
+		<tr>
+			<td> a</td>
+			<td>b</td>
+			<td> c</td>
+			<td> d </td>	
+
+		</tr>
+		<tr>
+			<td> e</td>
+			<td> f</td>
+			<td> g</td>
+			<td> h </td>	
+
+		</tr>
+	</table>
+
+
+
+
 
 	
 
