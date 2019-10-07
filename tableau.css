@@ -1,0 +1,15 @@
+
+
+
+
+
+
+table,
+th,
+td {
+	border: 1px solid black;
+	padding: 20px;
+	background-color: #FF9984;
+	border-collapse: collapse;
+}
+
